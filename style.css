@@ -1,0 +1,287 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+/* Estilo do Header */
+
+.img-logo {
+  width: 200px;
+  height: 90px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  background-color: #dffcff;
+}
+
+.nav-itens {
+  padding: 50px;
+  text-decoration: none;
+  color: #1f5f1e;
+  font-weight: bolder;
+  font-size: 1.3rem;
+  transition: 0.15s;
+  cursor: pointer;
+}
+
+.nav-itens:hover {
+  color: #4187b0;
+  transform: scale(1.15);
+}
+
+/* Estilo do Main */
+
+.main {
+  background-color: #a6cee5;
+}
+
+.intro {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #083a08;
+}
+
+.subtitle {
+  color: #083a08;
+  font-weight: 900;
+}
+
+.info-text {
+  height: 100px;
+  margin-top: 180px;
+  width: 600px;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-content: start;
+}
+
+.button-orçamento {
+  margin-top: 20px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bolder;
+  padding: 8px;
+  width: 150px;
+  height: 40px;
+  border-radius: 100px;
+  background-color: #104564;
+  color: #c3ecf0;
+  cursor: pointer;
+  transition: 0.15s;
+}
+
+.button-orçamento:hover {
+  background-color: #083a08;
+  color: #abf2ab;
+  transform: scale(1.15);
+}
+
+.rafael-img {
+  display: inline-block;
+  margin-left: 0px;
+  width: 450px;
+  height: 450px;
+  border-radius: 100px;
+  margin-top: 3rem;
+}
+
+.wave-1 {
+  left: 0px;
+  top: 5.5rem;
+  position: absolute;
+  display: inline-block;
+  transform: rotate(90deg);
+  width: 500px;
+  height: 520px;
+}
+
+.wave-2 {
+  display: inline;
+  width: 100%;
+  height: 150px;
+  top: 480px;
+  position: absolute;
+}
+
+/* ESTILOS DO SOBRE */
+
+.container-sobre {
+  margin-top: 100px;
+}
+
+.head-texts-sobre {
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  margin-left: 40px;
+}
+
+.head-texts-sobre h1 {
+  margin-top: 20px;
+  width: 600px;
+}
+
+.head-texts-sobre h2 {
+  font-size: 1.5rem;
+}
+
+.detail-text1 {
+  color: #4187b0;
+}
+
+.detail-text2 {
+  color: #58b257;
+}
+
+.line-detail {
+  transform: translate(-50%, -50%);
+  margin-top: 10rem;
+  margin-left: 50%;
+  width: 90vw;
+  height: 8px;
+  background-color: #8ac2e3;
+}
+
+.circle-detail {
+  position: relative;
+  top: -100px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.circle-1 {
+  width: 200px;
+  height: 200px;
+  border-radius: 200px;
+  background-color: #abf2ab;
+}
+
+.circle-2 {
+  width: 200px;
+  height: 200px;
+  border-radius: 200px;
+  background-color: #abf2ab;
+}
+
+.circle-3 {
+  width: 200px;
+  height: 200px;
+  border-radius: 200px;
+  background-color: #abf2ab;
+}
+
+.circle-4 {
+  margin-left: 10px;
+  width: 200px;
+  height: 200px;
+  border-radius: 200px;
+  background-color: #abf2ab;
+}
+
+.logo-imgs {
+  position: relative;
+  top: -250px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.svg-1 {
+  margin-right: 5px;
+}
+
+.svg-2 {
+  margin-right: 10px;
+}
+
+img,
+svg {
+  width: 100px;
+  height: 100px;
+}
+
+.container-1 {
+  display: grid;
+  width: auto;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: space-around;
+  text-align: center;
+  margin-top: -200px;
+}
+
+.container-2 {
+  display: grid;
+  grid-template-columns: repeat(4, 300px);
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.container-title {
+  font-size: 28px;
+}
+
+/* ESTILO DO MOSAICO */
+
+.mosaico {
+  margin-top: 150px;
+  position: absolute;
+  height: 1000px;
+  background-color: #002337;
+}
+
+.colchao-img {
+  width: 350px;
+  height: 350px;
+  border-radius: 100%;
+  position: relative;
+  top: 600px;
+  right: -100px;
+}
+
+.couro-limpo-img {
+  width: 350px;
+  height: 350px;
+  border-radius: 100%;
+  position: relative;
+  top: 1000px;
+}
+
+.couro-sujo-img {
+  width: 350px;
+  height: 350px;
+  border-radius: 100%;
+  position: relative;
+  top: 1000px;
+}
+
+.poltrona-limpa-img {
+  width: 350px;
+  height: 350px;
+  border-radius: 100%;
+  position: relative;
+  left: 200px;
+  bottom: 250px;
+}
+
+.poltrona-suja-img {
+  width: 350px;
+  height: 350px;
+  border-radius: 100%;
+  position: relative;
+  bottom: -30px;
+  left: 75px;
+}
