@@ -13,16 +13,35 @@
 </head>
 
 <body>
-  <div class="header">
+  <header>
+    <nav class="nav-bar">
+      <div class="logo">
+        <img src="./asssets/logo.png" alt="" class="logo">
+      </div>
 
-    <img src="./asssets/logo.png" class="img-logo" alt="Logo-Pano-Mágico">
+      <div class="nav-list">
+        <ul>
+          <li class="nav-item"><a href="#sobre" class="nav-link">Sobre</a></li>
+          <li class="nav-item"><a href="#servicos" class="nav-link">Serviços</a></li>
+          <li class="nav-item"><a href="#depoimentos" class="nav-link">Depoimento</a></li>
+          <li class="nav-item"><a href="https://w.app/U2Ojmt" class="nav-link" target="_blank">Contato</a></li>
+        </ul>
+      </div>
 
-    <a class="nav-itens" href="/">Sobre </a>
-    <a class="nav-itens" href="/">Serviços</a>
-    <a class="nav-itens" href="/">Depoimentos</a>
-    <a class="nav-itens" href="/">Contato</a>
+      <div class="mobile-menu-icon">
+        <button onclick="menuShow()"><img src="./asssets/menu-icon.svg" alt=""></button>
+      </div>
+    </nav>
 
-  </div>
+    <div class="mobile-menu">
+      <ul>
+        <li class="nav-item"><a href="#sobre" class="nav-link">Sobre</a></li>
+        <li class="nav-item"><a href="#servicos" class="nav-link">Serviços</a></li>
+        <li class="nav-item"><a href="#depoimentos" class="nav-link">Depoimento</a></li>
+        <li class="nav-item"><a href="https://w.app/U2Ojmt" class="nav-link" target="_blank">Contato</a></li>
+      </ul>
+    </div>
+  </header>
 
   <div class="main">
 
@@ -34,7 +53,7 @@
         <p class="title">Mais que uma limpeza</p>
         <h1 class="subtitle">A Pano Mágico não se trata de lavar o seu estofado, e sim de mudar todo o seu ambiente</h1>
 
-        <a href="https://web.whatsapp.com/" class="button-orçamento">Orçamento</a>
+        <a href="https://w.app/U2Ojmt" class="button-orçamento" target="_blank">Orçamento</a>
       </div>
 
 
@@ -43,7 +62,7 @@
 
   <img src="./asssets/wave.png" class="wave-2" alt="">
 
-  <div class="container-sobre">
+  <div id="sobre" class="container-sobre">
 
     <div class="head-texts-sobre">
       <h2>COMO TRABALHAMOS</h2>
@@ -83,16 +102,14 @@
 
       <p class="container-subtitle">Apenas pessoas autorizadas são aptas para entrar no seu domicílio, visando a segurança e privacidade do seu lar.</p>
 
-      <p class="container-subtitle">Com a utilização de produtos Vonixx e máquina, garantimos serviços com qualidade de ponta para você.</p>
+      <p class="container-subtitle">Com a utilização de produtos Vonixx e máquina extratora, garantimos serviços com qualidade de ponta para você.</p>
 
       <p class="container-subtitle"> Com a Pano Mágico os Serviços são sob medida, totalmente pensados na sua necessidade.</p>
     </div>
 
   </div>
 
-
-
-  <div class="mosaico">
+  <div id="servicos" class="mosaico">
 
     <img class="colchao-img" src="./asssets/Colchao.jpg" alt="">
     <img class="couro-limpo-img" src="./asssets/Couro-Limpo.jpg" alt="">
@@ -100,35 +117,54 @@
     <img class="poltrona-limpa-img" src="./asssets/Poltrona-Limpa.jpg" alt="">
     <img class="poltrona-suja-img" src="./asssets/Poltrona-Suja.jpg" alt="">
 
-    <!-- <h1>Pensado para você</h1>
-    <p> Somo uma empresa de pessoas pensada para pessoas como nós. Um dia também já tivemos móveis em estados como esses, mas pensando em gente como a gente proporcionamos transformações como essas.</p>
-    <a href="/">Orçamento</a> -->
+    <h1 class="mosaico-title">Pensado para você</h1>
+    <p class="mosaico-paragraph"> Somo uma empresa de pessoas pensada para pessoas como nós. Um dia também já tivemos móveis em estados como esses, mas pensando em gente como a gente proporcionamos transformações como essas, pare de perder o seu tempo e dinheiro com serviços ineficientes e trabalhosos e chame a Pano Mágico</p>
+    <a href="https://w.app/U2Ojmt" class="button-orçamento-mosaico" target="_blank">Orçamento</a>
+
   </div>
 
-  <!-- <div class="testiomonial">
+  <div id="#depoimentos" class="testiomonial">
     <div class="container-testimonial">
 
-      <img src="./asssets/testimonial-img.jpg" alt="">
+      <div class="stars">
 
-      <img src="./asssets/star-fill.svg" alt="">
+        <img src="./asssets/testimonial-img.jpg" class="karina-img" alt="">
 
-      <p>"O serviço ficou maravilhoso, simplesmente amei e isso por que eu já tinha tentado lavar outras vezes mas essa foi a melhor de todas, estão de parabéns."</p>
+        <div class="stars-specify">
+          <img class="star-img" src="./asssets/star-fill.svg" alt="">
+          <img class="star-img" src="./asssets/star-fill.svg" alt="">
+          <img class="star-img" src="./asssets/star-fill.svg" alt="">
+          <img class="star-img" src="./asssets/star-fill.svg" alt="">
+          <img class="star-img" src="./asssets/star-fill.svg" alt="">
+        </div>
+      </div>
 
-      <p>Karina</p>
+      <div class="testimonial-text" id="#depoimentos">
+
+        <p>"O serviço ficou maravilhoso, simplesmente amei e isso por que eu já tinha tentado lavar outras vezes mas essa foi a melhor de todas, estão de parabéns."</p>
+        <p>Karina</p>
+      </div>
+
     </div>
-  </div>   -->
+  </div>
 
-  <!-- <footer>
 
-    <img src="./asssets/Logo.png" alt="logo-img">
+  <div class="footer">
+    <img src="./asssets/Logo.png" alt="logo-img" class="logo-footer">
 
-    <img src="./asssets/zap-icon.svg" alt="whatsapp-icon">
+    <div class="footer-icons">
+      <a href="https://w.app/U2Ojmt" target="_blank"><img src="./asssets/zap-icon.svg" alt="whatsapp-icon" class="footer-icon"></a>
 
-    <img src="./asssets/Insta-icon.svg" alt="instagram-icon">
+      <a href="https://www.instagram.com/panomagico_/" target="_blank"><img src="./asssets/Insta-icon.svg" alt="instagram-icon" class="footer-icon"> </a>
 
-    <p>Pano mágico, todos os direitos resevados ©</p>
-  </footer>  -->
+    </div>
 
+    <p class="footer-rights">Pano mágico, todos os direitos resevados ©</p>
+
+  </div>
+
+  <script src="./scripts.js"></script>
 </body>
+
 
 </html>
